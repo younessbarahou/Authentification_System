@@ -23,7 +23,7 @@ module.exports = {
         input: '80%'
       },
       height: {
-        lg: '335px',
+        lg: '345px',
         input: '34px'
       },
       fontFamily:{
@@ -31,7 +31,8 @@ module.exports = {
       },
       backgroundColor:{
         'black': '#101820',
-        'blue': '#2964B9'
+        'blue': '#2964B9',
+        'bluee': '#0A3981'
       }
     },
   },
