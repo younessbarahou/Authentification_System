@@ -14,17 +14,58 @@
             <input type="text"  placeholder="email" autocomplete="off" class="rounded-md h-input border-inputt border-input w-input pl-2 placeholder:text-md focus:outline-none focus:border-focus focus:border-opacity-fifty text-gray-700">
             <div class="relative flex mr-auto ml-auto w-input">
                 <input type="password" id="inpt-1"  placeholder="password" autocomplete="off" class="w-full rounded-md border-inputt border-input h-input pl-2 placeholder:text-md focus:outline-none focus:border-focus focus:border-opacity-fifty text-gray-700">
-                <img id="visibility" class="absolute top-2.5 right-2 hover:cursor-pointer" src="./nvisible.png" width="18px" height="18px">
-            </div>
+                <img id="visibility" class="absolute top-2.5 right-2 hover:cursor-pointer" src="./nvisible.png" width="18px" height="18px">```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Login Page</title>
+</head>
+<body class="bg-black">
+    <div class="block bg-white max-w-lg h-lg ml-auto mr-auto relative rounded-md top-28">
+        <div class="flex flex-col absolute top-8 bottom-5 gap-6 left-auto right-auto w-full">
+            <div class="text-center font-bold text-2xl tracking-widest">Login</div>
+            <form class="flex flex-col gap-4 items-center" id="login-form">
+                <input type="email" id="email" placeholder="Email" autocomplete="off" class="rounded-md h-input border-inputt border-input w-input pl-2 placeholder:text-md focus:outline-none focus:border-focus focus:border-opacity-fifty text-gray-700" required>
+                <div class="relative flex mr-auto ml-auto w-input">
+                    <input type="password" id="password" placeholder="Password" autocomplete="off" class="w-full rounded-md border-inputt border-input h-input pl-2<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Login Page</title>
+</head>
+<body class="bg-black">
+    <div class="block bg-white max-w-lg h-lg ml-auto mr-auto relative rounded-md top-28">
+        <div class="flex flex-col absolute top-8 bottom-5 gap-6 left-auto right-auto w-full">
+            <div class="text-center font-bold text-2xl tracking-widest">Login</div>
+            <form class="flex flex-col gap-4 items-center" id="login-form">
+                <input type="email" id="email" placeholder="Email" autocomplete="off" class="rounded-md h-input border-inputt border-input w-input pl-2 placeholder:text-md focus:outline-none focus:border-focus focus:border-opacity-fifty text-gray-700" required>
+                <div class="relative flex mr-auto ml-auto w-input">
+                    <input type="password" id="password" placeholder="Password" autocomplete="off" class="w-full rounded-md border-inputt border-input h-input pl-2 placeholder:text-md focus:outline-none focus:border-focus focus:border-opacity-fifty text-gray-700" required>
+                    <img id="visibility" class="absolute top-2.5 right-2 hover:cursor-pointer" src="./nvisible.png" width="18px" height                </div>
+                <button class="hover:duration-300 hover:bg-bluee bg-blue border-none border-input text-white border-inputt rounded-md h-input w-input mr-auto ml-auto -mt-1" type="submit">Submit</button>
+            </form>
+            <a ><div class="text-center -m-2">Forget Your Password?</div></a>
+            <a href="./SignUp.html"><div class="text-center  text-blue-400">I Don't have an account</div></a>
+        </div>
+    </div>
+</body>
+<script src="./Login.js"></script>
+</html>
+``` </div>
             <div class="relative w-input mr-auto ml-auto">
-            <img id="password_match1" width="15px" height="15px" class="absolute top-2.5 right-2 hidden">
-            <p id="msg" class="self-start w-input mt-2 text-sm text-red-500 hidden">* All fields are required</p>
+            <p id="msg" class="self-start w-input text-sm text-red-500 -mt-2 hidden">Incorrect Password Or Email</p>
             </div>
             <button class="hover:duration-300 hover:bg-bluee bg-blue border-none border-input text-white border-inputt rounded-md h-input w-input mr-auto ml-auto -mt-1" text-white text-center hover:cursor-pointer text-lg w-input ml-auto mr-auto" type="submit">Submit</button>
         </form>
-        <a href="./Login.html"><div class="text-center -m-2 text-blue-400">I Aready Have An Account</div></a>
+        <a ><div class="text-center -m-2">Forget Your Password?</div></a>
+        <a href="./SignUp.html"><div class="text-center  text-blue-400">I Don't have an account</div></a>
     </div>
     </div>
 </body>
-<script src="./script.js"></script>
+<script src="./Login.js"></script>
 </html>
