@@ -598,6 +598,10 @@ video {
   top: 2rem;
 }
 
+.top-5 {
+  top: 1.25rem;
+}
+
 .-m-2 {
   margin: -0.5rem;
 }
@@ -722,6 +726,10 @@ video {
   text-align: center;
 }
 
+.text-start {
+  text-align: start;
+}
+
 .text-2xl {
   font-size: 1.5rem;
   line-height: 2rem;
@@ -779,6 +787,11 @@ video {
   color: rgb(255 255 255 / var(--tw-text-opacity, 1));
 }
 
+.text-red-600 {
+  --tw-text-opacity: 1;
+  color: rgb(220 38 38 / var(--tw-text-opacity, 1));
+}
+
 .opacity-20 {
   opacity: 0.2;
 }
@@ -817,4 +830,33 @@ video {
 .focus\:outline-none:focus {
   outline: 2px solid transparent;
   outline-offset: 2px;
+}
+
+.\[\&\>\*\]\:ml-auto>* {
+  margin-left: auto;
+}
+
+.\[\&\>\*\]\:mr-auto>* {
+  margin-right: auto;
+}
+
+.\[\&\>\*\]\:h-input>* {
+  height: 34px;
+}
+
+.\[\&\>\*\]\:w-input>* {
+  width: 80%;
+}
+
+.\[\&\>\*\]\:rounded-md>* {
+  border-radius: 4px;
+}
+
+.\[\&\>\*\]\:border-inputt>* {
+  border-width: 1.5px;
+}
+
+.\[\&\>\*\]\:border-input>* {
+  --tw-border-opacity: 1;
+  border-color: rgb(217 217 217 / var(--tw-border-opacity, 1));
 }

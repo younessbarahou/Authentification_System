@@ -4,14 +4,17 @@ let email = document.querySelector("input");
 let password = document.getElementById("inpt-1");
 let infos = {email:null,password:null};
 form.addEventListener("submit", (e) =>{
+    e.preventDefault();
     if (!password.value || !email.value){
         document.getElementById('msg').style.display = 'block';
         document.getElementById('msg').innerText = 'Fields Should not be Empty'
-    !password.value ? password.style.borderColor = 'red':null;
-    !email.value ?  email.style.borderColor = 'red':null;
-    e.preventDefault();
+        !password.value ? password.style.borderColor = 'red':null;
+        !email.value ?  email.style.borderColor = 'red':null;
     }
     else{
+        document.getElementById('msg').style.display = 'none';
+        password.style.borderColor = '#D9D9D9';
+        email.style.borderColor = '#D9D9D9';
         console.log("hola mundoo");
     }
 })
